@@ -72,8 +72,8 @@
 //  console.log(count);
 
 //  let score =4;
-//  score +=;
-//  console.log(count);
+//  score +=1;
+//  console.log(score);
    
 // Create a function that adds two numbers and returns the result.  
 //  let a=2;
@@ -82,12 +82,32 @@
 //     console.log(a+b);
 // }
 // add();
+// function add(a,b){
+//     return a+b;
+// }
+//  let a=add(3,4);
+// console.log(a);
+// console.log(add(3,4));
+
+
 
 // // Make a function that checks if a number is prime.
 // let num = prompt("type any number");
-// function prime(){
-//     if(num > 1)
+// function prime(num){
+//     if(num < 1){
+//         return;
+//     }
+//     for(i=2; i<num; i++){
+//         if(num % i==0){
+//             console.log("num is not prime");
+//             return;
+//         }
+//     }
+//       console.log("num is prime");
+
 // }
+// prime(num);
+
 
 // Build a function that returns the maximum of three numbers. 
 //   let a=3;
@@ -127,3 +147,64 @@
 //     console.log(vowel);
 //  }
 //  countVowel();
+
+//second method
+// let string = "hello";
+// let vowel = "";
+
+// function countVowel() {
+//   for (let i = 0; i < string.length; i++) {
+//     let ch = string[i].toLowerCase();  // optional for safety
+//     if (ch === 'a' || ch === 'e' || ch === 'i' || ch === 'o' || ch === 'u') {
+//       vowel += string[i];
+//     }
+//   }
+//   console.log(vowel);  // Output: "eo"
+// }
+
+// countVowel();
+
+// Build a tip calculator function that takes amount and tip % as input.
+//  let amount =Number(prompt("enter amount"));
+//  let tipPercent = Number(prompt("enter tip %"));
+ 
+// function calculateTip(amount,tipPercent){
+//     let tip = (amount * tipPercent) / 100;
+//    let total= amount+tip;
+//    console.log("Tip: ₹" + tip);
+//   console.log("Total Amount: ₹" + total);
+  
+// }
+// calculateTip(amount,tipPercent);
+
+// Use a function to calculate the factorial of a number.
+// function factorial(n){
+//     let result =1;
+//     for(let i=1; i <=n; i++){
+//         result+=i;
+//     }
+//     console.log(result);
+// }
+// factorial(9);
+
+// Create a simple interest calculator using a function.
+//  let p=prompt("type priceple");
+//  let r=prompt("type rate of intrest");
+//  let t=prompt("give time ");
+//  function si(){
+//   si=(p*r*t)/100;
+//   console.log(si);
+//  }
+//  si();
+
+// Create a function that checks if a year is a leap year or not.
+//  function isLeapYear(year){
+//    if((year % 4 ===0 && year % 100 !==0) || (year % 400 ===0)){
+//    console.log(year+ "is a leap year");
+//  }else{
+//     console.log(year + "is not a leap year");
+//   } 
+
+//  }
+
+//  isLeapYear(2025);
