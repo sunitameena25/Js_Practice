@@ -9,7 +9,7 @@
 // var hobby=prompt("hobby");
 // console.log(age,country,hobby);
 
-//  Swap two variables' values without using a third variable.  -> swap
+//  Swap two variables' values without using a third variable.  
 // let a=10;
 // let b=20;
 // a = a+b; //30
@@ -91,22 +91,22 @@
 
 
 
-// // Make a function that checks if a number is prime.
-// let num = prompt("type any number");
-// function prime(num){
-//     if(num < 1){
-//         return;
-//     }
-//     for(i=2; i<num; i++){
-//         if(num % i==0){
-//             console.log("num is not prime");
-//             return;
-//         }
-//     }
-//       console.log("num is prime");
+// Make a function that checks if a number is prime.
+/*let num = prompt("type any number");
+function prime(num){
+    if(num < 2){
+        return;
+    }
+    for(let i=2; i<num; i++){
+        if(num % i==0){
+            console.log("num is not prime");
+            return;
+        }
+    }
+      console.log("num is prime");
 
-// }
-// prime(num);
+}
+prime(num);*/
 
 
 // Build a function that returns the maximum of three numbers. 
@@ -161,8 +161,8 @@
 //   }
 //   console.log(vowel);  // Output: "eo"
 // }
-
 // countVowel();
+
 
 // Build a tip calculator function that takes amount and tip % as input.
 //  let amount =Number(prompt("enter amount"));

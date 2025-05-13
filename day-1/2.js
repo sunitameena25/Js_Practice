@@ -91,3 +91,123 @@
 // console.log(addCount());
 // console.log(addCount());
 
+// ✅ Arrays (methods, iteration)
+// Create an array of 5 numbers and write a function that returns the sum using a loop.
+
+// function sum(arr){
+//     total = 0;
+//     for(i=0; i<length-1; i++){
+//         total+= arr[i];
+//     }
+//     return total;
+// }
+// let arr =[1,2,3,4,5];
+// console.log(sum(arr));  // Output: 15
+
+
+// Use map() method to square each number in an array.
+// let numbers =[1,2,3,4,];
+
+// let doubled = numbers.map(function(num) {
+//     return num * 2;
+// });
+
+// console.log(doubled);  // [2, 4, 6, 8]
+
+
+// Use filter() method to return only the even numbers from an array.
+
+// let number = [1,2,3,4,5,6,8];
+// let evenNumbers = number.filter(function(num) {
+//    return num % 2 === 0;   // condition: even number
+
+// });
+// console.log(evenNumbers);
+
+// Use push() and pop() to add and remove elements from an array.
+
+// let fruits = ["apple","banana"];
+// fruits.push('orange');
+// console.log(fruits);
+
+
+// // ✅ pop() – Remove element from the end
+// let removedFruit = fruits.pop();
+// console.log(fruits);
+// console.log(removedFruit);
+
+
+/* Sort an array of strings alphabetically using sort().
+
+let fruit = ["banana","apple","cherry"];
+fruit.sort();
+console.log(fruit);*/
+
+//Strings (methods)
+// Write a function that returns the length of a given string.
+/*function getStringLength(str) {
+    return str.length;
+}
+
+//Example:
+/*let result = getStringLength("JavaScript");
+console.log(result); */ // Output: 10
+
+//without pre define method
+/*function getLength(str) {
+    let count = 0;
+    while (str[count] !== undefined) {
+        count++;
+    }
+    return count;
+}
+
+console.log(getLength("Sunita")); */
+
+
+
+//revers string
+/*function reverseString(str) {
+    let reversed = "";
+    let i = 0;
+    while (str[i] !== undefined) {
+        reversed = str[i] + reversed;
+        i++;
+    }
+    return reversed;
+}
+
+console.log(reverseString("Sunita")); */
+
+
+// 📘 7. String ke Har Character ko Print Karna
+
+/*let str = "Sunita";
+let i = 0;
+while (str[i] !== undefined) {
+    console.log(str[i]);
+    i++;
+}*/
+
+// Convert a string to uppercase using toUpperCase().
+/*let text = "hello world";
+let upperText = text.toUpperCase();
+console.log(upperText); */
+
+
+// Extract a substring from a given string using slice() or substring().
+/*let text = "JavaScript";
+let result = text.slice(4, 10);
+console.log(result); // Output: "Script"*/
+
+/*let text = "JavaScript";
+let result = text.substring(text.length - 4);
+console.log(result); // Output: "ript"*/
+
+// Replace a word in a string using replace().
+
+/*let text = "Hello world, welcome to the world of JavaScript.";
+let result = text.replace("world", "universe");
+console.log(result); // Output: "Hello universe, welcome to the world of JavaScript."*/
+
+
